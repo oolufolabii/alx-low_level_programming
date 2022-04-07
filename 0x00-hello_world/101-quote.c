@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <string>
+
+/**
+ *main - prints the words "and that piece
+ *of art is useful"
+ *Return: 1 upon completion
+ *
+ */
+
+int main(void)
+{
+  writ(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",
+       STRLEN("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n"));
+
+  return (1);
+
+}
