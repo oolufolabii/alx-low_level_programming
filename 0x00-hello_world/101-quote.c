@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include <string>
+#include <string.h>
 
 /**
  *main - prints the words "and that piece
