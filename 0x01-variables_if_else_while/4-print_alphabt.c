@@ -1,26 +1,27 @@
 #include <stdio.h>
+
 /**
  * main - Entry point for alphabets
- *
  * Return: Always 0 for Success
  */
 
 int main(void)
-
 {
 
 char alphabet;
-while (alphabet <= 'z')
+
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+
+if (alphabet != 'q' && alphabet != 'e')
 
 {
-if (alphabet != 'e' && alphabet != 'q')
-{
+
 putchar(alphabet);
 
 }
-alphabet++;
-}
 
 putchar('\n');
+
 return (0);
+
 }
