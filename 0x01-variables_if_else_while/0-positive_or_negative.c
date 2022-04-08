@@ -2,10 +2,9 @@
 #include <stdio.h>
 #include <time.h>
 
-/**main - generates a random integer for n
- *
- *return 0 for success
- *
+/**
+ *main - assigns a random number to int n everytime
+ *Return: Always 0 (Success)
  */
 
 int main(void)
@@ -22,5 +21,5 @@ else if (n < 0)
 printf("%d is negative\n", n);
 
 
- return (0);
+return (0);
 }
