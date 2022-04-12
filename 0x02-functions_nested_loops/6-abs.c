@@ -5,11 +5,12 @@
  * Return: 1 if n > 1, 0 if n < 0
  */
 
-int _abs(int)
+int _abs(int n)
 {
-if (int < 0)
+if (n < 0)
 {
-int * -1;
+_putchar (n * -1)
+return (n * -1);
 }
 else if (n > 0)
 
