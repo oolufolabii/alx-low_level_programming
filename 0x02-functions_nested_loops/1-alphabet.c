@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check the code.
+ * print_alphabet - prints a-z all lower case with a new line.
  *
  * Return: Void.
 */
@@ -11,7 +11,7 @@ int i = 97;
 while (i <= 122)
 {
 _putchar(i);
-_putchar('\n');
 i++;
 }
+_putchar('\n')
 }
