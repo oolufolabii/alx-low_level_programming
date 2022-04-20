@@ -28,5 +28,5 @@ result = (result * 10) + (s[i] - '0');
 else if (alpha != 0)
 break;
 }
-return (result * sign);
+return (result *sign);
 }
