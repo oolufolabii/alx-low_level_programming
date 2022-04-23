@@ -3,7 +3,7 @@
 /**
  * _strncat - concatenates n bytes from a string to another(dest)
  * @dest: destination string
- * @src: source string 
+ * @src: source string
  * @n: number of bytes of str to concatenate
  * Return: a pointer to the resulting string dest
  */
@@ -12,7 +12,7 @@ char *_strncat(char *dest, char *src, int n)
 
 {
 
-int a, b, n;
+int a, b;
 
 a = 0;
 b = 0;
