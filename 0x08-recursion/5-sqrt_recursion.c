@@ -23,7 +23,7 @@ return (sqrt_calc(n, 0));
  * sqrt_calc - recurses to find the natural
  * square root of a number
  * @n: number to calculate the sqaure root of
- * @i: iterating value
+ * @a: iterating value
  * Return: the resulting square root
  */
 int sqrt_calc(int n, int a)

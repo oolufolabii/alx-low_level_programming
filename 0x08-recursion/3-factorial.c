@@ -1,4 +1,4 @@
-#include "main.h";
+#include "main.h"
 
 /**
  * factorial - print numbers 0-9 except 2 and 4
