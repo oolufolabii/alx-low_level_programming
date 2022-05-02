@@ -23,7 +23,7 @@ return (1);
 }
 }
 
-sum += _atoi(argv[num]);
+sum += atoi(argv[num]);
 }
 
 printf("%d\n", sum);
