@@ -18,9 +18,9 @@ printf("Error\n");
 return (1);
 }
 
-num1 = argv[argc - 2];
-num2 = argv[argc - 1];
-result = atoi(num1) * atoi(num2);
+num1 = atoi(argv[argc - 2]);
+num2 = atoi(argv[argc - 1]);
+result = num1 * num2;
 
 printf("%d\n", result);
 
