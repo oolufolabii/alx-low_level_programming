@@ -27,7 +27,7 @@ if (copier == NULL)
 return (NULL);
 
 
-for(a = 0; a <= ((sizeof(str)) + 1); a++)
+for (a = 0; a <= ((sizeof(str)) + 1); a++)
 copier[a] = str[a];
 
 return (copier);
