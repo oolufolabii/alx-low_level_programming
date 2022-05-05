@@ -23,7 +23,7 @@ b++;
 b++;
 }
 
-str = malloc((b + 1) *sizeof(char));
+str = malloc((b + 1) * sizeof(char));
 
 if (str == NULL)
 return (NULL);
