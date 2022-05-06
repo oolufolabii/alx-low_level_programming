@@ -13,5 +13,7 @@ C programming, Linux, data structures and algorithm components of the Holberton 
 *All your files should end with a new line
 
 
+---
+
 ## Student
 * **Olufolabi** - [oolufolabii](github.com/oolufolabii/)
