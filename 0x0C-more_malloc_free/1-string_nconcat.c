@@ -38,7 +38,7 @@ string[i++] = s2[j++];
 while (n >= s2_lenght && i < (s1_lenght + s2_lenght))
 string[i++] = s2[j++];
 
-string[s1_lenght + s2_lenght - 1] = '\0';
+string[i] = '\0';
 
 return (string);
 }
