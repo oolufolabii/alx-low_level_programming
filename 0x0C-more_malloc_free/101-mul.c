@@ -36,7 +36,7 @@ rev *= 10;
 rev += (s[a] - 48);
 }
 
-return (sign * rev);
+return (sign *rev);
 }
 
 /**
@@ -51,7 +51,7 @@ unsigned long int divisor = 1;
 unsigned long int a, rev;
 
 for (a = 0; n / divisor > 9; a++, divisor *= 10)
-		;
+;
 
 for (; divisor >= 1; n %= divisor, divisor /= 10)
 {

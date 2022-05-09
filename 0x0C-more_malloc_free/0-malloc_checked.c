@@ -13,7 +13,7 @@ void *alloc;
 alloc = malloc(b);
 
 if (alloc == NULL)
-exit (98);
+exit(98);
 
 return (alloc);
 }
