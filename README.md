@@ -53,6 +53,9 @@ Introduction to the argument count and argument vector to `main` in C.
 ### [(222) 0x0B. C - malloc, free](./0x0B-malloc_free/)
 Introduction to dynamic vs automatic memory allocation and manual memory management.
 
+### [(223) 0x0C. C - More malloc, free](./0x0C-more_malloc_free/)
+Further practice on dynamic vs automatic memory allocation and manual memory management.
+
 ---
 
 ## Student
