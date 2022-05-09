@@ -1,9 +1,4 @@
-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
-
-0x0C. C - More malloc, free
-
-
-#include "mainn.h"
+#include "main.h"
 
 /**
  * *_realloc - reallocates a memory block using malloc and free
