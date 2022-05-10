@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - adds two positive number
- * @argc: number of arguments
- * @argv: array of arguents
+ * main - adds two positive number.
+ * @argc: number of arguments.
+ * @argv: array of arguents.
  * Return: 0 (Success), or 1 (Success)
  */
 
