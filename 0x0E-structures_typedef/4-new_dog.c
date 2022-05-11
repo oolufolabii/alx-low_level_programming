@@ -1,4 +1,4 @@
-#include "main.h"
+#include "dog.h"
 
 /**
  * *_strcpy - copies the string from src to dest
