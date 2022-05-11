@@ -56,6 +56,13 @@ Introduction to dynamic vs automatic memory allocation and manual memory managem
 ### [(223) 0x0C. C - More malloc, free](./0x0C-more_malloc_free/)
 Further practice on dynamic vs automatic memory allocation and manual memory management.
 
+### [(224) 0x0D. C - Preprocessor](./0x0D-preprocessor/)
+Introduction to preprocessor macro sytnax.
+
+### [(225) 0x0E. C - Structures, typedef](./0x0E-structures_typedef/)
+Introduction to structures and type defintions in C.
+
+
 ---
 
 ## Student
