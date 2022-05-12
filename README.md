@@ -1,5 +1,7 @@
 # My ALX low level programming repo.
 
+---
+
 ## Description
 C programming, Linux, data structures and algorithm components of the Holberton school core curriculum.
 
