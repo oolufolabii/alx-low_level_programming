@@ -1,5 +1,6 @@
 #include "variadic_functions.h"
-
+#include <stdio.h>
+#include <stdarg.h>
 void print_all(const char * const format, ...)
 {
 
@@ -10,10 +11,8 @@ va_list ap;
 
 va_start(ap, format);
 
-if (!format)
-return (NULL);
+if (format)
 
-else
 {
 while (format[i])
 {
@@ -51,3 +50,11 @@ i++;
 printf("\n");
 va_end(ap);
 }
+
+
+int main(void)
+{
+print_all("ceis", 'B', 3, "Garvin");
+return (0);
+}
+
