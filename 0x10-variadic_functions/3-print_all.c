@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdarg.h>
 #include "variadic_functions.h"
 
 void print_all(const char * const format, ...)
@@ -52,10 +50,4 @@ i++;
 
 printf("\n");
 va_end(ap);
-}
-
-int main(void)
-{
-print_all("ieis", 'B', 3, "Garvin");
-return (0);
 }
