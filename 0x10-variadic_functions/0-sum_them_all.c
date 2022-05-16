@@ -1,6 +1,3 @@
-0x10. C - Variadic functions
-
-
 #include "variadic_functions.h"
 
 /**
@@ -15,7 +12,7 @@ unsigned int i;
 int sum = 0;
 
 if (n == 0)
-return 0;
+return (0);
 
 va_list ap;
 
