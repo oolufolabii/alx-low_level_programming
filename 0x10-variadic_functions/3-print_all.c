@@ -52,9 +52,3 @@ va_end(ap);
 }
 
 
-int main(void)
-{
-print_all("ceis", 'B', 3, "Garvin");
-return (0);
-}
-
