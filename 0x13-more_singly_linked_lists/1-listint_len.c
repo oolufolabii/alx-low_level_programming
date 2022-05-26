@@ -3,7 +3,8 @@
 /**
  * listint_len - A singly linked list funtion to print the number of elements
  * in a linked list.
- * @h: Argument variable of the linked list function of type listint_t to traverse.
+ * @h: Argument variable of the linked list function of
+ * type listint_t to traverse.
  * Return: Amount of nodes counted
  */
 
