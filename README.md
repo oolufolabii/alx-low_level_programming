@@ -93,6 +93,10 @@ First team project, building a clone of glibc `printf`.
 
 Introduction to common data structures as expressed in C, beginning with singly-linked lists.
 
+### [(230) 0x13. C - More singly linked lists](./0x13-more_singly_linked_lists/)
+
+More and advanced practice on singly typed of linked lists.
+
 ---
 
 ## Issues
