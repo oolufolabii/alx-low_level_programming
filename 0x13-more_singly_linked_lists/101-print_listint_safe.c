@@ -8,22 +8,22 @@
 
 size_t print_listint_safe(const listint_t *head)
 {
-	size_t count = 0;
-	long int ppt;
+size_t count = 0;
+long int ppt;
 
-	while (head)
-	{
-		ppt = head - head->next;
-		count++;
-		printf("[%p] %d\n", (void *)head, head->n);
-		if (ppt > 0)
-			head = head->next;
-		else
-		{
-			printf("-> [%p] %d\n", (void *)head->next, head->next->n);
-			break;
-		}
-	}
+while (head)
+{
+ppt = head - head->next;
+count++;
+printf("[%p] %d\n", (void *)head, head->n);
+if (ppt > 0)
+head = head->next;
+else
+{
+printf("-> [%p] %d\n", (void *)head->next, head->next->n);
+break;
+}
+}
 
-	return (count);
+return (count);
 }
