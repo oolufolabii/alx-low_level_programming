@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * print_binary - Function that converts Decimals to Binary.
- * @n: argument of function.
- * Return: Always 0 (Success)
+ * print_binary - prints the binary equivalent of a decimal number
+ * @n: number to print in binary
  */
 
 void print_binary(unsigned long int n)
