@@ -6,20 +6,21 @@
  * @h: double pointer to the list
  * @idx: index of the node to insert
  * @n: data to insert
+ *
  * Return: address of the new node, or NULL if it failed
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	unsigned int i;
-	dlistint_t *newNode;
+	dlistint_t *new;
 	dlistint_t *temp = *h;
 
-	newNode = malloc(sizeof(dlistint_t));
-	if (!newNode || !h)
+	new = malloc(sizeof(dlistint_t));
+	if (!new || !h)
 		return (NULL);
 
-	newNode->n = n;
-	newNode->next = NULL;
+	new->n = n;
+	new->next = NULL;
 
 	if (idx == 0)
 		return (add_dnodeint(h, n));
@@ -30,11 +31,11 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 		{
 			if (temp->next == NULL)
 				return (add_dnodeint_end(h, n));
-			newNode->next = temp->next;
-			newNode->prev = temp;
-			temp->next->prev = newNode;
-			temp->next = newNode;
-			return (newNode);
+			new->next = temp->next;
+			new->prev = temp;
+			temp->next->prev = new;
+			temp->next = new;
+			return (new);
 		}
 		else
 			temp = temp->next;
