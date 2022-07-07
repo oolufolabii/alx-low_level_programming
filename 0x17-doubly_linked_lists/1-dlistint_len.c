@@ -2,7 +2,7 @@
 
 /**
  * dlistint_len - returns the number of nodes in a doubly linked list
- * @h: pointer to the list
+ * @h: pointer to the linked list
  * Return: number of nodes
  */
 
