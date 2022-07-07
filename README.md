@@ -97,6 +97,14 @@ Introduction to common data structures as expressed in C, beginning with singly-
 
 More and advanced practice on singly typed of linked lists.
 
+### [(232) 0x14. C - Bit manipulation](./0x14-bit_manipulation/)
+
+Introduction to operations that alter individiual bit values.
+
+### [(234) 0x15. C - File I/O](./0x15-file_io/)
+
+Reading from and writing to files in C.
+
 ---
 
 ## Issues
