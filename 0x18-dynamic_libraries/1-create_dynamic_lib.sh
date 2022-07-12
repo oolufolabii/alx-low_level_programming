@@ -1,5 +1,5 @@
 #!/bin/bash
-gcc -Wall -pedantic -Werror -Wextra -std=gnu89 -fPIC -g *.c
-gcc -shared -o liball.so *.o
-chmod 644 liball.so
+gcc *.c -c -fPIC
+gcc *.o -shared -o liball.so
+chmod u+x liball.so
 export LD_LIBRARY_PATH=$PWD:$LD_LIBRARY_PATH
