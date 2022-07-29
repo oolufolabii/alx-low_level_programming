@@ -1,4 +1,4 @@
-# My ALX low level programming repo.
+# My ALX low level programming.
 
 ---
 
